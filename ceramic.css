@@ -1,0 +1,42 @@
+#innerContent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#icon {
+    height: 50px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url('./Images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 60px;
+    cursor: pointer;
+
+}
+
+.ul {
+    border: 1.5px solid;
+    width: 40%;
+    margin: auto auto;
+    /* display:none; */
+}
+
+.btn{
+    margin:10px auto;
+    float: left;
+    box-shadow:2px 2px 5px 5px grey;
+}
